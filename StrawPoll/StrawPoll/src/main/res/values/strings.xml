@@ -8,5 +8,6 @@
     <string name="view_poll">Poll Title</string>
     <string name="main_menu_create_button">Create</string>
     <string name="main_menu_image_desc">Profile picture next to question</string>
+	<string name="photo_grid_activity_title">Select Images</string>
 
 </resources>
