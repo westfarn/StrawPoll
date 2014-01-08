@@ -6,5 +6,7 @@
     <string name="action_settings">Settings</string>
     <string name="view_polls_activity_title">View Polls</string>
     <string name="view_poll">Poll Title</string>
+    <string name="main_menu_create_button">Create</string>
+    <string name="main_menu_image_desc">Profile picture next to question</string>
 
 </resources>

@@ -27,12 +27,12 @@ public class MainMenu extends Activity implements GestureDetector.OnGestureListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
 
-        if (savedInstanceState == null) {
+        /*if (savedInstanceState == null) {
             getFragmentManager().beginTransaction()
                     .add(R.id.container, new PlaceholderFragment())
                     .commit();
-        }
-        FrameLayout frameLayout = (FrameLayout)findViewById(R.id.container);
+        }*/
+        //FrameLayout frameLayout = (FrameLayout)findViewById(R.id.container);
         //add gesture controls here
         /*frameLayout.setOnTouchListener(new View.OnTouchListener() {
             @Override
@@ -40,7 +40,7 @@ public class MainMenu extends Activity implements GestureDetector.OnGestureListe
                 return false;
             }
         });*/
-        gestureDetectorCompat = new GestureDetectorCompat(this,this);
+        //gestureDetectorCompat = new GestureDetectorCompat(this,this);
         //gestureDetectorCompat.setOnDoubleTapListener(this);
     }
 
@@ -68,7 +68,7 @@ public class MainMenu extends Activity implements GestureDetector.OnGestureListe
     /**
      * A placeholder fragment containing a simple view.
      */
-    public static class PlaceholderFragment extends Fragment {
+    /*public static class PlaceholderFragment extends Fragment {
 
         public PlaceholderFragment() {
         }
@@ -79,7 +79,7 @@ public class MainMenu extends Activity implements GestureDetector.OnGestureListe
             View rootView = inflater.inflate(R.layout.fragment_main_menu, container, false);
             return rootView;
         }
-    }
+    }*/
 
     public void goToViewPolls(View v) {
         Intent intent = new Intent(this, ViewListOfPolls.class);
@@ -127,6 +127,7 @@ public class MainMenu extends Activity implements GestureDetector.OnGestureListe
         Log.d("GESTURES","onSingleTapUp: "+event.toString());
         return true;
     }
+
 
 
 
