@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/StrawPoll.iml" filepath="$PROJECT_DIR$/StrawPoll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StrawPoll/StrawPoll-StrawPoll.iml" filepath="$PROJECT_DIR$/StrawPoll/StrawPoll-StrawPoll.iml" />
+    </modules>
+  </component>
+</project>
+

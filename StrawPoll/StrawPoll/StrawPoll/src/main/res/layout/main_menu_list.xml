@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_menu_rowTextView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        style="@style/ActivePollList"
+        android:id="@+id/main_menu_list_text"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/ActivePollQuestion"
+            android:id="@+id/main_menu_question_text" />
+
+        <TextView
+            style="@style/ActivePollUsername"
+            android:id="@+id/main_menu_username"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/main_menu_profile_picture"
+        android:contentDescription="@string/main_menu_image_desc"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/contact_book"
+        android:background="#000000"
+        android:layout_weight="1"
+        android:gravity="center"/>
+
+</RelativeLayout>

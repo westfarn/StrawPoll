@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Author: Ryan Westfall
+Date: 31 Dec 2013
+File desc: This is a file for the LocationObject's border.  this will be on the main Linear Layout.
+
+
+ToDo:
+1. Have the style conform the apps style/design
+
+-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!--<corners android:radius="20dp"/>-->
+    <padding android:left="4dp" android:right="4dp" android:bottom="4dp" android:top="4dp"/>
+    <solid android:color="#ccffcc"/>
+
+</shape>
