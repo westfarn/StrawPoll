@@ -3,6 +3,7 @@
 import os 
 
 top = "C:\\Users\\Jacob\\AndroidStudioProjects\\StrawPoll"
+top2 = "C:\Users\Joe\AndroidStudioProjects"
 word = "C:\\Users\\westf_000\\AndroidStudioProjects\\StrawPoll" 
 change = "C:\\Users\\Jacob\\AndroidStudioProjects\\StrawPoll"
 
