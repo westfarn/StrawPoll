@@ -38,8 +38,6 @@ public class MainMenu_CustomList extends ArrayAdapter<String>{
         ImageView imageView = (ImageView) rowView.findViewById(R.id.main_menu_profile_picture);
         txtTitle.setText(questions[position]);
         txtUsername.setText(username[position]);
-        //imageView.setVisibility(1);
-        //imageView.setImageResource(imageId[position]);
         return rowView;
     }
 }

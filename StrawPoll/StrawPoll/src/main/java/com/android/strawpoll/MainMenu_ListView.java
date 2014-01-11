@@ -4,12 +4,17 @@ package com.android.strawpoll;
  * Created by Joe on 1/6/14.
  */
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 import android.app.Activity;
+import android.widget.Button;
+import android.util.Log;
+
 public class MainMenu_ListView extends Activity {
     ListView list;
     String[] questions = {
@@ -57,4 +62,27 @@ public class MainMenu_ListView extends Activity {
             }
         });
     }
+
+        /*@Override
+        public boolean onCreateOptionsMenu(Menu menu) {
+            getMenuInflater().inflate(R.menu.activity_main_menu, menu);
+            return true;
+        }*/
+
+
+        public void goToSettings(View buttons) {
+            Log.i("clicks", "You Clicked Settings");
+            Intent i=new Intent(MainMenu_ListView.this, settings_menu.class);
+            startActivity(i);
+    }
+
+        public void goToContacts(View buttons) {
+            Log.i("clicks", "You Clicked Contacts");
+            Intent i=new Intent(MainMenu_ListView.this, contacts_menu.class);
+            startActivity(i);
+    }
+
 }
+
+
+
