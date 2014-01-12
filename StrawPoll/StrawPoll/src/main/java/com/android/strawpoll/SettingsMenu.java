@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.app.Activity;
 
-public class settings_menu extends Activity {
+public class SettingsMenu extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

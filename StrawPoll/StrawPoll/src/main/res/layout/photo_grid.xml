@@ -10,8 +10,8 @@
     android:horizontalSpacing="10dp"
     android:stretchMode="columnWidth"
     android:gravity="center"
-    android:listSelector="@drawable/photo_selector_color"
+
 
     >
-
+<!--android:listSelector="@drawable/photo_selector_color"-->
 </GridView>

@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.app.Activity;
 
-public class open_poll extends Activity {
+public class OpenPoll extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.app.Activity;
 
-public class contacts_menu extends Activity {
+public class ContactsMenu extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
